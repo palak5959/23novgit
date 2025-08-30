@@ -60,5 +60,20 @@ console.log(valueInNumber);
 // console.log(valueInNumber);
 
 
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);//if in starting we got a string  then whole console will be considered as string
+console.log(1+2+"2");//if it is in last so first we evaluate and then mark the answer
+
+// these all are the faltu examples:
+console.log(+true);//it is a very bad practice don't write the code like this 
+console.log(+"");//doesn't make sense 
+
+let gamecounter = 100//100
+gamecounter++;//100
+console.log(gamecounter);//101
+
+
+
 
 
